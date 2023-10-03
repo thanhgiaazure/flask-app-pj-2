@@ -1,5 +1,5 @@
 setup:
-	python3 -m venv ~/.udacity-devops
+	python3 -m venv ~/flask-app-pj-2
 
 install:
 	pip install --upgrade pip &&\
@@ -8,7 +8,6 @@ install:
 test:
 	#python -m pytest -vv --cov=myrepolib tests/*.py
 	#python -m pytest --nbval notebook.ipynb
-
 
 lint:
 	#hadolint Dockerfile #uncomment to explore linting Dockerfiles
