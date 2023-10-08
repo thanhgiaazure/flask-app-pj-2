@@ -15,7 +15,8 @@ variables:
 
   # Agent VM image name
   # vmImageName: 'ubuntu-latest'
-  pool: LocalPool
+  pool: 
+    name: 'MyAgentPool'
 
   # Environment name
   environmentName: 'flask-app-thanh-gia'
