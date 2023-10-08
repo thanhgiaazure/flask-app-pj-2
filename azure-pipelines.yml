@@ -11,11 +11,11 @@ variables:
   azureServiceConnectionId: '534b3647-3583-42ec-8d62-6d78b163a485'
 
   # Web app name
-  # webAppName: 'flask-app-thanh-gia'
-  pool: LocalPool
+  webAppName: 'flask-app-thanh-gia'  
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  # vmImageName: 'ubuntu-latest'
+  pool: LocalPool
 
   # Environment name
   environmentName: 'flask-app-thanh-gia'
