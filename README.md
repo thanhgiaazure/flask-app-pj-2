@@ -1,3 +1,4 @@
+[![Python application](https://github.com/thanhgiaazure/flask-app-pj-2/actions/workflows/python-app.yml/badge.svg)](https://github.com/thanhgiaazure/flask-app-pj-2/actions/workflows/python-app.yml)
 # Overview
 
 In this project, we will build CI/CD pipeline, the resource was saved on Github Repository and create a scaffolding to perform CI and CD.
@@ -45,7 +46,15 @@ This Architecture includes 4 main parts:
      2. `source ~/flask-app-pj-2/bin/activate`
   - Install all dependencies with command: `make all`
    ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/b42eca37-c3a4-4dc0-9971-114d81d001fa)
+  - Run App with command:
+    1. `export FLASK_APP=app.py`
+    2. `flask run`
+   ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/2f7f735d-67ba-4e3a-9c99-e4171e9f92a3)
+  - Open new az cloud shell session for testing flask app
+    Run command: `sh make_prediction.sh`
+    ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/9767585e-3938-4f54-a8d1-4386cd5dc627)
 
+      
 * Project running on Azure App Service
 
 * Output of a test run
