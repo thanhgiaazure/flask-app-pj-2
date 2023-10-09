@@ -78,9 +78,8 @@ This Architecture includes 4 main parts:
     ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/8009b627-7a9b-4419-adda-c7ea5708a035)
 
   - Run: `sh make_predict_azure_app.sh `
-    
-    ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/8c4f3ce8-30ad-481d-a000-00d74e79485d)
 
+    ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/8c4f3ce8-30ad-481d-a000-00d74e79485d)
 
 * Output of a test run:
   **Load test an app using Locust**
