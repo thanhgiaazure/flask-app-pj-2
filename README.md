@@ -17,6 +17,7 @@ In this project, we will build CI/CD pipeline, the resource was saved on Github 
 <TODO:  
 * Architectural Diagram 
 ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/2ccc7913-e0ad-4c67-92d3-e7d450939d46)
+
 This Architecture includes 4 main parts:
   - Source control: This place contains source code - GitHub
   - Continuous Integration(CI): Config Github Action and Testing/Linting
@@ -29,15 +30,19 @@ This Architecture includes 4 main parts:
   Brief: For cloning project from GitHub to Cloud Shell, we must connect them by ssh-key. Follow steps as below:
   - Login to AZ Cloud Shell
   - Create a ssh-key with command: `ssh-keygen -t rsa -b 2048 -C "email was registered with github"`
+    
     ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/55d87c9b-b797-4755-8540-77cb50822f13)
     
   - Read ssh-key with command: `cat id_rsa.pub` - id_rsa is default name of key file
+    
     ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/f5c0d11d-f395-484d-8f97-55992d9d45f3)
     
   - Copy this key and pass to GitHub: Github Account -> Settings -> SSH and GPG keys
+    
     ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/0770e2c0-00c3-4031-af81-a11ca680af9e)
 
   - Then, in az cloud shell, run `git clone` to clone project
+    
     ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/deb2ee3d-f533-4021-b4ca-dca8147d1b68)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
@@ -45,13 +50,17 @@ This Architecture includes 4 main parts:
      1. `python3 -m venv ~/flask-app-pj-2`
      2. `source ~/flask-app-pj-2/bin/activate`
   - Install all dependencies with command: `make all`
+    
    ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/b42eca37-c3a4-4dc0-9971-114d81d001fa)
   - Run App with command:
     1. `export FLASK_APP=app.py`
     2. `flask run`
+   
    ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/2f7f735d-67ba-4e3a-9c99-e4171e9f92a3)
+  
   - Open new az cloud shell session for testing flask app
     Run command: `sh make_prediction.sh`
+    
     ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/9767585e-3938-4f54-a8d1-4386cd5dc627)
     
 * Project running on Azure App Service
