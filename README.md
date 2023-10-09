@@ -80,6 +80,7 @@ This Architecture includes 4 main parts:
     1. Create Python's enviroment: `py -m venv env`
     2. Activate the enviroment on WINDOWS: `env\Scripts\activate`
     3. Install locust: `pip3 install locust`
+   
     ![image](https://github.com/thanhgiaazure/flask-app-pj-2/assets/146719378/8c7bfbcf-7d9e-483a-9406-fbdf2e59f004)
 
     [Locust's Document](https://docs.locust.io/en/stable/what-is-locust.html)
