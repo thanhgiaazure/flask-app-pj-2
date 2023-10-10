@@ -10,7 +10,8 @@ In this project, we will build CI/CD pipeline, the resource was saved on Github 
 ## Project Plan
 
 - [Trello board](https://trello.com/invite/b/NvLqlNlX/ATTI6b2897b01e11f5736a6786007701825430D9310F/udacity-project-2-board)
-* A link to a spreadsheet that includes the original and final project plan>
+- [Original project plan](https://github.com/thanhgiaazure/flask-app-pj-2/blob/b1e43114272497a656aa9eccc8486f8eff810402/Original%20Project%20Plan.xlsx)
+- [Final project plan](https://github.com/thanhgiaazure/flask-app-pj-2/blob/b1e43114272497a656aa9eccc8486f8eff810402/Final%20Project%20Plan.xlsx)
 
 ## Instructions
 
